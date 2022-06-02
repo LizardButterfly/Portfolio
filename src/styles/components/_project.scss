@@ -1,0 +1,53 @@
+@use '../utilities/variables' as *;
+@use '../utilities/mixins' as *;
+
+span.bolded{
+    font-weight: 1000;
+}
+
+
+
+div{
+    
+}
+
+#projectHeader {
+    // text-align:center;
+    // background-color: $navy-blue;
+    // padding: 7rem 0rem;
+    // margin-top: 0;
+
+    h1 {
+        font-size: 4em;
+        margin-bottom: 2rem;
+    }
+    h3{
+        padding-top: 1rem;
+    }
+
+    @media (min-width: 576px) {
+        padding: 7rem 0rem;
+
+        h3 {
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 1.7rem;
+            padding-top: 0;
+            margin-bottom: 0;
+        }
+    }
+
+    @media (min-width: $phonePortrait) {
+        text-align:center;
+        background-color: $navy-blue;
+        padding: 5rem 0rem;
+        margin-top: 0;
+        h3{
+            text-align: center;
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+    }
+}
+
+
