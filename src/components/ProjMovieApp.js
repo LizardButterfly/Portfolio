@@ -6,7 +6,7 @@ function Project4() {
         <div className='hero-section' id='reactMovie'>
             <h1>React Movie App</h1>
 
-            <figure><img src={ReactMovieImage} alt="Article" /></figure>
+            <figure><img src={ReactMovieImage} alt="MovieApp" /></figure>
 
             <div>
                 <h3>Overview</h3>

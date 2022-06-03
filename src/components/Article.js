@@ -1,6 +1,7 @@
-import ReactMovieImage from '../images/reactmovieapp.png';
-import VioSusImage from '../images/viosusResize.png';
 import NewsArticleImage from '../images/newsarticleResize.png';
+import VioSusImage from '../images/viosusResize.png';
+import PortfolioImage from '../images/portfolio.png';
+import ReactMovieImage from '../images/reactmovieapp.png';
 import { Row, Col } from "react-bootstrap";
 
 
@@ -37,7 +38,7 @@ function Article() {
             <Col lg={6}>
                 <section className="article">
                     <article>
-                        <figure><img src={NewsArticleImage} alt="myPortfolio" /></figure>
+                        <figure><img src={PortfolioImage} alt="myPortfolio" /></figure>
                         <div>
                             <h4>My Portfolio</h4>
                             <p className='mt-3 mb-5'>React Portfolio Website</p>

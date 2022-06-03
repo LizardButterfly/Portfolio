@@ -7,7 +7,7 @@ function ProjectHeader() {
             <h1>Projects</h1>
 
             <div>
-                <h3>A collection of my featured technical projects, fun projects as a front-end developer.</h3>
+                <h3>A collection of my featured technical projects as a Web Developer</h3>
             </div>            
         </div>
     )

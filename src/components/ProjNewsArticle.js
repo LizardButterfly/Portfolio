@@ -1,4 +1,4 @@
-import newsArticleImage from '../images/newsarticle.png';
+import NewsArticleImage from '../images/newsarticle.png';
 
 function Project1() {
 
@@ -6,7 +6,7 @@ function Project1() {
         <div className='hero-section' id='newsArticle'>
             <h1>News Article</h1>
 
-            <figure><img src={newsArticleImage} alt="Article" /></figure>
+            <figure><img src={NewsArticleImage} alt="NewsArticle" /></figure>
 
             <div>
                 <h3>Overview</h3>
